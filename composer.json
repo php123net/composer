@@ -1,0 +1,21 @@
+{
+    "name": "php123net/composer",
+    "description": "'",
+    "type": "library",
+    "require": {
+        "php": ">=5.3"
+    },
+    "authors": [
+        {
+            "name": "fuhongmian",
+            "email": "hongmianfu@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "php123net\\composer\\": "src/composer/lib"
+        }
+    }
+
+}
